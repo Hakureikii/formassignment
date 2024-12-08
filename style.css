@@ -1,0 +1,125 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   background-image: url(img/val.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   width: 100%;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   width: 85%;
+   background-color: #0a0724;
+   height: 600px;
+   display: flex;
+   border-radius: 20px;
+   box-shadow: 6px 6px rgba(0,0,0,0.7);
+}
+
+.input {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 25%;
+   height: 600px;
+}
+
+.img {
+   width: 75%;
+   height: 600px;
+   background-image: url(img/val.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 20px;
+   display: flex;
+   justify-content: end;
+}
+
+.logo {
+   background-image: url(img/riot-games-new-logo-with-red-outline.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 350px;
+   margin: 40px 0 30px 0;
+   width: 50%;
+   height: 60px;
+}
+.label {
+   color: #ced4f2;
+   padding: 20px 0 10px 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 25px;
+   font-weight: 800;
+}
+.user, .pass {
+   background-color: #3a3278;
+   margin: 20px 0 0 0;
+   width: 60%;
+   height: 40px;
+   border-radius: 10px;
+   border-style: none;
+   color: white;
+   padding: 0 20px 0 ;
+   box-shadow: 2px 3px rgba(0,0,0,0.5);
+}
+
+.user::placeholder, .pass::placeholder {
+   color: white;
+   font-family: "Kanit", serif;
+   font-size: 12px;
+}
+
+.sl {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}
+
+.sup, .lin {
+   background-color: rgba(128, 107, 219, 0.144);
+   color: white;
+   margin: 40px 10px 0 ;
+   width: 30%;
+   height: 70px;
+   border-radius: 20px;
+   border-style: none;
+   cursor: pointer;
+   font-family: "Kanit", serif;
+   font-size: 14px;
+   box-shadow: 2px 3px rgba(0,0,0,0.5);
+}
+
+.sup:hover, .lin:hover {
+   background-color: rgba(61, 54, 128, 0.753);
+}
+
+.close {
+   margin: 5px 5px 0 0;
+   background-color: rgba(0, 0, 0, 0);
+   border-radius: 20px;
+   border-style: none;
+   width: 9%;
+   height: 70px;
+   color: white;
+   text-align: center;
+   line-height: 70px;
+   font-family: "Kanit", serif;
+   cursor: pointer;
+   font-size: 17px;
+   font-weight: 200;
+}
+
+.close:hover {
+   transition: .3s;
+   background-color: rgba(0, 0, 0, 0.5);
+   box-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+}
